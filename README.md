@@ -1,6 +1,4 @@
-# Rails-React-App
-
-
+# Rails as a back-end 💾💾
 
 ## Getting Started
 
