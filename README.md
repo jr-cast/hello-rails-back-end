@@ -6,28 +6,31 @@ This repository includes files with Ruby that can be used to test the created ma
 
 Clone this link into your local device.
 
-To run test make sure that rspec-rails and capybara libraries are installed in your project
-
-To double check please run:
+Double-check gems by running:
 ```
 bundle install
-yarn install
-```
-This will install both gems if they were missing in your environment.
-
-Run the server:
-```
-./bin/dev
 ```
 
-or
-
-Build manuallt and run the server with rails:
-
+Create db and migrate db files
 ```
-yarn build
+rails db:create
 
-rails s
+rails db:migrate
+```
+
+Populate db with seed file
+```
+rails db:seed
+```
+
+Run server
+```
+rails server
+```
+
+Access endpoint in browser
+```
+localhost:3000/api/message
 ```
 
 ## Authors
